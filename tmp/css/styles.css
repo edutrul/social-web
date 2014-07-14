@@ -1,0 +1,224 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #555;
+}
+a {
+  text-decoration: none;
+}
+select {
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px'><polyline points='46.139,15.518 25.166,36.49 4.193,15.519'/></svg>");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  color: #111;
+  background-position: right 10px top 15px;
+  background-size: 16px 16px;
+  padding: 12px;
+  width: auto;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+}
+select -webkit-transition 0.3sease all -moz-transition 0.3sease all -ms-transition 0.3sease all -o-transition 0.3sease all {
+  transition: 0.3s ease all;
+}
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+.front-header {
+  background: url("../images/welcome-hands.jpg");
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.front-header:before {
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.front-header:before .header {
+  margin-top: 20px;
+}
+.inner-header {
+  background: #37464f;
+}
+.inner-header .header {
+  padding-bottom: 20px;
+}
+.header {
+  padding-top: 20px;
+}
+.header .logo {
+  float: left;
+  margin: 0 0 0 40px;
+  padding: 0;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+.header .logo a {
+  color: #fff;
+}
+.header .logo img {
+  vertical-align: middle;
+}
+.header nav {
+  float: right;
+  margin-right: 40px;
+}
+.header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.header nav li {
+  float: left;
+  list-style-type: none;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.header nav li a {
+  color: #fff;
+}
+.welcome {
+  padding-top: 70px;
+  margin-bottom: 50px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+.welcome h3 {
+  font-family: Lato, sans-serif;
+  font-size: 100px;
+  margin-bottom: -40px;
+  margin-top: -10px;
+}
+.welcome p {
+  font-family: Lato, sans-serif;
+  font-size: 50px;
+}
+.main {
+  background: #eee;
+}
+.filter-container {
+  background: #09c;
+}
+.filter-container .filter {
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 20px;
+}
+.filter-container .filter .filter-item {
+  background: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0 10px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 12px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  color: #111;
+}
+.filter-container .filter .filter-item.active,
+.filter-container .filter .filter-item:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.activities {
+  margin-top: 30px;
+}
+.activity {
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+.activity .image-container {
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.activity .image-container:hover .zoom {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.activity .image-container .zoom {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.activity .cat {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+  font-size: 80%;
+}
+.activity .description {
+  width: 250px;
+  height: 150px;
+}
+.activity .title {
+  margin: 0;
+  padding: 4px 0px;
+}
+.activity .title a {
+  color: #222;
+}
+.activity .ctry {
+  float: left;
+}
+.activity .org {
+  float: right;
+}
+.content {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.content h1.title {
+  color: #c0392b;
+  border-bottom: 1px solid #ddd;
+}
+.content .meta {
+  float: right;
+  background: #fff;
+  width: 400px;
+}
+.content .meta h3 {
+  background: #2980b9;
+  color: #fff;
+  padding: 4px 2px;
+  margin: 0;
+}
+.content .meta p {
+  padding: 4px 2px;
+}
+.footer-container {
+  background: #37464f;
+  color: #89949b;
+}
+.footer-container .footer {
+  text-align: right;
+  padding: 30px 0;
+}

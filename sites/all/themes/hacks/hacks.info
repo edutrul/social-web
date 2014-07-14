@@ -1,0 +1,54 @@
+screenshot  = screenshot.png
+name        = Hacks BBVA
+description = BBVA
+
+core        = 7.x
+base theme  = zen
+
+stylesheets[all][] = css/vendor/normalize.css
+stylesheets[all][] = css/vendor/animate.css
+stylesheets[all][] = css/tabs.css
+stylesheets[all][] = css/styles.css
+
+
+scripts[] = js/vendor/jquery.easing.1.3.js
+scripts[] = js/vendor/inview.js
+scripts[] = js/vendor/isotope.pkgd.min.js
+scripts[] = js/script.js
+
+
+regions[navigation]    = Navigation
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[meta]        = Meta
+regions[footer]         = Footer
+regions[home_welcome]         = Home Welcome
+regions[home_activities]         = Home Actividades
+regions[filter_items]         = Filter Items
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+
+
+settings[zen_breadcrumb]           = yes
+settings[zen_breadcrumb_separator] = ' › '
+settings[zen_breadcrumb_home]      = 1
+settings[zen_breadcrumb_trailing]  = 0
+settings[zen_breadcrumb_title]     = 0
+settings[zen_skip_link_anchor]     = main-menu
+settings[zen_skip_link_text]       = Jump to navigation
+settings[zen_html5_respond_meta][] = respond
+settings[zen_html5_respond_meta][] = html5
+settings[zen_html5_respond_meta][] = meta
+settings[zen_rebuild_registry]     = 1
+settings[zen_wireframes]           = 0
+

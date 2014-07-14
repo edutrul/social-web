@@ -1,0 +1,162 @@
+extends layout
+
+block header
+  .header-container.front-header
+    header.clearfix.header
+      h1.logo
+        a(href="#")
+          img(src="images/logo.png", alt="Activate")
+          |  Activ@te
+
+      nav
+        ul
+          li
+            a(href="#") Inicio
+          li
+            a(href="#") Iniciar Sesión
+
+    .clearfix.welcome
+      h3.flyleft Ayuda Social
+      p.flyup Prestando ayuda a los más necesitados
+
+block content
+
+  .clearfix.main
+    .filter-container
+      .filter.wrapper.superflyleft
+        | Filtrar por 
+        //
+          a.filter-item.active(href="page.html") Todos
+          a.filter-item(href="page.html", data-ctry="peru") País
+          a.filter-item(href="page.html", data-ctry="chile") Organización
+          a.filter-item(href="page.html") Categoría
+
+        select
+          option(value="peru") País
+          option(value="peru") Perú
+          option(value="peru") Chile
+          option(value="peru") Argentina
+
+        select
+          option(value="peru") Organización
+          option(value="peru") Otro Banco
+          option(value="peru") BBVA
+          option(value="peru") Banco Minero
+        select
+          option(value="peru") Categoría
+          option(value="peru") Otros
+          option(value="peru") Comunidad
+          option(value="peru") Otra Comnidad
+
+    .activities.wrapper
+      .activity.peru(data-ctry="peru", data-org="", data-cat="")
+        .image-container
+          a(href="page.html")
+            img.zoom(src="http://placehold.it/250x200", alt="Apoyo a AAHH Ventanilla")
+          a.cat(href="page.html") Otros
+        .description
+          h3.title
+            a(href="page.html") Apoyo a AAHH Ventanilla
+        .meta
+          .ctry.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+          .org.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+
+      .activity(data-ctry="chile", data-org="", data-cat="")
+        .image-container
+          a(href="page.html")
+            img.zoom(src="http://placehold.it/250x200", alt="Apoyo a AAHH Ventanilla")
+          a.cat(href="page.html") Otros
+        .description
+          h3.title
+            a(href="page.html") Chocolatada en AA.HH "Flores de Villa"
+        .meta
+          .ctry.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+          .org.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+
+      .activity(data-ctry="chile", data-org="", data-cat="")
+        .image-container
+          a(href="page.html")
+            img.zoom(src="http://placehold.it/250x200", alt="Apoyo a AAHH Ventanilla")
+          a.cat(href="page.html") Fechas Especiales
+        .description
+          h3.title
+            a(href="page.html") Chocolatada en AA.HH "Flores de Villa"
+        .meta
+          .ctry.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+          .org.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+
+      .activity.peru(data-ctry="peru", data-org="", data-cat="")
+        .image-container
+          a(href="page.html")
+            img.zoom(src="http://placehold.it/250x200", alt="Apoyo a AAHH Ventanilla")
+          a.cat(href="page.html") Talleres de Capacitación
+        .description
+          h3.title
+            a(href="page.html") Apoyo a AAHH Ventanilla
+        .meta
+          .ctry.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+          .org.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+
+      .activity(data-ctry="", data-org="", data-cat="")
+        .image-container
+          a(href="page.html")
+            img.zoom(src="http://placehold.it/250x200", alt="Apoyo a AAHH Ventanilla")
+          a.cat(href="page.html") Caridad
+        .description
+          h3.title
+            a(href="page.html") Chocolatada en AA.HH "Flores de Villa"
+        .meta
+          .ctry.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+          .org.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+
+      .activity(data-ctry="chile", data-org="", data-cat="")
+        .image-container
+          a(href="page.html")
+            img.zoom(src="http://placehold.it/250x200", alt="Apoyo a AAHH Ventanilla")
+          a.cat(href="page.html") Talleres de Capacitación
+        .description
+          h3.title
+            a(href="page.html") Chocolatada en AA.HH "Flores de Villa"
+        .meta
+          .ctry.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+          .org.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+
+      .activity.peru(data-ctry="peru", data-org="", data-cat="")
+        .image-container
+          a(href="page.html")
+            img.zoom(src="http://placehold.it/250x200", alt="Apoyo a AAHH Ventanilla")
+          a.cat(href="page.html") Fechas Especiales
+        .description
+          h3.title
+            a(href="page.html") Apoyo a AAHH Ventanilla
+        .meta
+          .ctry.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+          .org.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+
+      .activity(data-ctry="", data-org="", data-cat="")
+        .image-container
+          a(href="page.html")
+            img.zoom(src="http://placehold.it/250x200", alt="Apoyo a AAHH Ventanilla")
+          a.cat(href="page.html") Otros
+        .description
+          h3.title
+            a(href="page.html") Chocolatada en AA.HH "Flores de Villa"
+        .meta
+          .ctry.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")
+          .org.meta-item
+            img(src="http://placehold.it/60x38", alt="Perú")

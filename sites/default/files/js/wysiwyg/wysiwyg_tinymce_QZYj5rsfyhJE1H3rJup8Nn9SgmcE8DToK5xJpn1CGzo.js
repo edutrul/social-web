@@ -1,0 +1,1 @@
+window.tinyMCEPreInit = {"base":"\/profiles\/plato_tipico\/libraries\/tinymce\/jscripts\/tiny_mce","suffix":"","query":""};

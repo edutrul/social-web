@@ -1,0 +1,8 @@
+filename = "AYUDASOCIAL-2014-06-01T13-40-57"
+description = ""
+datestamp = "1401648059"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.27"
+sites[0][name] = "AYUDA SOCIAL"
+sites[0][url] = "http://hacks.lalotech.com/"
